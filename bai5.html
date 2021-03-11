@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let gk = parseFloat(prompt('nhập điểm giữa kỳ:'));
+    let ck = parseFloat(prompt('nhập điểm cuối kỳ:'));
+    let dtb=((gk+ck)/2).toFixed(2);
+    if (dtb<5){
+        alert(dtb+' học dốt vl ')
+    }
+    else if (5<=dtb&&dtb<=7){
+        alert(dtb+' tàm tạm')
+    }
+    else {
+        alert(dtb+' giỏi lắm cu')
+    }
+</script>
